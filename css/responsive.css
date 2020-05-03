@@ -1,0 +1,402 @@
+
+/* Tablet View */
+@media (min-width: 577px) and (max-width: 768px){
+	
+	.logo {
+        width: 150px;
+	    padding: 10px 10px 10px 0;
+	}
+	.phone {
+	    float: right;
+    	padding: 10px;
+	}
+	.phone ul li p {
+	    font-size: 10px;
+	}
+	
+	.navbar-toggler-icon {
+	    display: inline-block;
+	    width: 20px;
+	    height: 20px;
+	    vertical-align: middle;
+	    content: "";
+	    background: no-repeat center center;
+	    background-size: 100% 100%;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    letter-spacing: 1px;
+	    margin-left: 0px;
+	    font-size: 12px;
+	}
+	.banner-content {
+	    margin-top: 38px;
+	}
+	.text-title p {
+	    font-size: 12px;
+	}
+	.text-img {
+	    margin-bottom: 0px;
+	}
+	.banner-img {
+	    position: relative;
+	    margin-top: -49px;
+        margin-bottom: 30px;
+	}
+	.price-today-content p span {
+	    font-size: 33px;
+	}
+	.price-today-content h2 {
+	    font-size: 12px;
+	    letter-spacing: 3px;
+	    margin-top: 5px;
+	}
+	.group-two-content-one {
+	    position: absolute;
+	    top: 6px;
+	    left: 7px;
+	    height: 94%;
+	    width: 94%;
+	}
+	.group-two-content-one h3 {
+	    font-size: 13px;
+	}
+	.group-two-content-one h2 {
+	    font-size: 22px;
+	    line-height: 20px;
+	}
+	.box-one {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.box-two {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	}
+	.group-two-content-two h3 {
+	    font-size: 12px;
+	}
+	.group-two-content-two {
+	    position: absolute;
+	    top: 6px;
+	    left: 6px;
+	    height: 100%;
+	    width: 50%;
+	}
+	.group-two-content-two h2 {
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.box-three {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	    margin-top: 20px;
+	}
+	.group-two-content-three {
+	    top: 6px;
+	    left: 6px;
+	    height: 30%;
+	    width: 50%;
+	}
+	.group-two-content-three h3 {
+	    font-size: 12px;
+	}
+	.group-two-content-three h2 {
+	    font-size: 20px;
+	    font-family: 'Bebas Neue', cursive;
+	    color: #fff;
+	    line-height: 20px;
+	}
+	.group-three .title-heading h3 {
+	    font-size: 12px;
+	}
+	.group-three .title h1 {
+	    font-size: 30px;
+	}
+	.group-three .title p {
+	    font-size: 10px;
+	}
+	.card{
+		margin: 0 auto;
+	}
+	.group-four {
+	    padding-top: 0px;
+	}
+	.group-four-holder {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-bottom: 0px;
+	    padding-top: 25px;
+	    background: transparent;
+	}
+	.carousel-content {
+	    padding: 30px 30px;
+	}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+	    text-align: center;
+	}
+	.group-four-img-box {
+	    width: 100%;
+	    padding: 0;
+        margin-top: 35px;
+	}
+	.group-four .title p {
+	    margin-bottom: 10px;
+	}
+	.carousel-img {
+	    width: 100%;
+	    float: none;
+	    margin-right: 0;
+	}
+	.group-five {
+	    background: url(../img/group-5-bg.png) no-repeat right;
+	    background-size: cover;
+	    padding: 44px 0 86px;
+	}
+	.form-group .btn {
+	    background: #bf2222;
+	    color: #fff;
+	    font-family: 'Alfa Slab One', cursive;
+	    font-size: 14px;
+	    border: 1px solid #bf2222;
+	    height: 45px;
+        width: 100%;
+	}
+	.footer-content {
+	    margin-top: 0px;
+	}
+	.footer-img {
+	    width: 180px;
+	}
+	.footer-sub-content p {
+	    width: 90%;
+	    margin: 35px auto 30px;
+	}
+	.footer-media {
+	    margin-top: 15px;
+	}
+	.mt-0, .my-0 {
+	    margin-left: 10px;
+	    text-align: left;
+		}
+	.fa-map-marker {
+	    font-size: 20px;
+	    margin-right: 0;
+	}
+	.fa-envelope {
+	    font-size: 15px;
+	    margin-right: 0;
+	}
+	.footer-social-media {
+	    float: none;
+	    margin-top: 10px;
+	}
+	.media {
+	    margin-bottom: 0px;
+	}
+	.company h4 {
+	    margin-top: 20px;
+	}
+
+
+}
+/* Mobile View */
+@media (min-width: 320px) and (max-width: 576px){
+	.logo {
+	    width: 120px;
+	    padding: 0px 0px 0;
+	}
+	.phone {
+	    float: none;
+	    padding: 0 0 0;
+	}
+	.phone ul li p {
+	    font-size: 10px;
+	}
+	body {
+	    text-align: center;
+	}
+	.navbar-toggler-icon {
+	    display: inline-block;
+	    width: 20px;
+	    height: 20px;
+	    vertical-align: middle;
+	    content: "";
+	    background: no-repeat center center;
+	    background-size: 100% 100%;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    letter-spacing: 1px;
+	    margin-left: 0px;
+	    font-size: 12px;
+	}
+	.banner-content {
+	    margin-top: 38px;
+	}
+	.text-title p {
+	    font-size: 12px;
+	}
+	.text-img {
+	    margin-bottom: 0px;
+	}
+	.banner-img {
+	    position: relative;
+	    margin-top: -49px;
+        margin-bottom: 30px;
+	}
+	.price-today-content p span {
+	    font-size: 33px;
+	}
+	.price-today-content h2 {
+	    font-size: 12px;
+	    letter-spacing: 3px;
+	    margin-top: 5px;
+	}
+	.group-two-content-one {
+	    position: absolute;
+	    top: 3px;
+	    left: 7px;
+	    height: 94%;
+	    width: 94%;
+	}
+	.group-two-content-one h3 {
+	    font-size: 12px;
+	}
+	.group-two-content-one h2 {
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.box-one {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.box-two {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	}
+	.group-two-content-two h3 {
+	    font-size: 12px;
+	}
+	.group-two-content-two {
+	    position: absolute;
+	    top: 3px;
+	    left: 0px;
+	    height: 100%;
+	    width: 50%;
+	}
+	.group-two-content-two h2 {
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.box-three {
+	    position: relative;
+	    float: none;
+	    width: 100%;
+	    margin-top: 20px;
+	}
+	.group-two-content-three {
+	    top: 3px;
+	    left: 0px;
+	    height: 30%;
+	    width: 50%;
+	}
+	.group-two-content-three h3 {
+	    font-size: 12px;
+	}
+	.group-two-content-three h2 {
+	    font-size: 20px;
+	    font-family: 'Bebas Neue', cursive;
+	    color: #fff;
+	    line-height: 20px;
+	}
+	.group-three .title-heading h3 {
+	    font-size: 12px;
+	}
+	.group-three .title h1 {
+	    font-size: 30px;
+	}
+	.group-three .title p {
+	    font-size: 10px;
+	}
+	.card{
+		margin: 0 auto;
+	}
+	.group-four {
+	    padding-top: 0px;
+	}
+	.group-four-holder {
+	    width: 100%;
+	    margin: 0 auto;
+	    padding-bottom: 0px;
+	    padding-top: 25px;
+	    background: transparent;
+	}
+	.carousel-content {
+	    padding: 30px 30px;
+	}
+	.owl-theme .owl-dots, .owl-theme .owl-nav {
+	    text-align: center;
+	}
+	.carousel-img {
+	    width: 100%;
+	    float: none;
+	    margin-right: 0;
+	}
+	.group-five {
+	    background: url(../img/group-5-bg.png) no-repeat right;
+	    background-size: cover;
+	    padding: 44px 0 86px;
+	}
+	.form-group .btn {
+	    background: #bf2222;
+	    color: #fff;
+	    font-family: 'Alfa Slab One', cursive;
+	    font-size: 14px;
+	    border: 1px solid #bf2222;
+	    height: 45px;
+        width: 100%;
+	}
+	.footer-content {
+	    margin-top: 0px;
+	}
+	.footer-img {
+	    width: 180px;
+	}
+	.footer-sub-content p {
+	    width: 90%;
+	    margin: 35px auto 30px;
+	}
+	.footer-media {
+	    margin-top: 15px;
+	}
+	.mt-0, .my-0 {
+	    margin-left: 10px;
+	    text-align: left;
+		}
+	.fa-map-marker {
+	    font-size: 20px;
+	    margin-right: 0;
+	}
+	.fa-envelope {
+	    font-size: 15px;
+	    margin-right: 0;
+	}
+	.footer-social-media {
+	    float: none;
+	    margin-top: 10px;
+	}
+	.media {
+	    margin-bottom: 0px;
+	}
+	.company h4 {
+	    margin-top: 20px;
+	}
+
+
+}
